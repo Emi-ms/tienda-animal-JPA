@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Fredericka+the+Great&family=Italianno&family=Kalam&family=Roboto&display=swap');
+
+.input-text {
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #dadadf;
+}
+
+.select{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 30px;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.button{
+    font-family: Roboto, serif;
+    font-size: 20px;
+    max-width: max-content;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #42b0e7;
+    color: white;
+    border: 2px solid #42b0e7;
+    text-decoration: none;
+}
+.button:hover{
+    border: 2px solid black;
+}
+
+.button:active{
+    border: 2px solid black;
+    background-color: #108ecb;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+
+.card{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.precio{
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #0ea90e;
+    width: max-content;
+}
+
+.card-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    gap: 10px;
+    width: 200px;
+
+}
+
+.button-anyadir{
+    font-family: Roboto, serif;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #d90606;
+    color: white;
+    border: 2px solid #d90606;
+    text-decoration: none;
+}
+.button-anyadir:hover{
+    border: 2px solid black;
+}
+
+.button-anyadir:active{
+    border: 2px solid black;
+    background-color: #c70202;
+}
+
+.button-historial{
+    font-family: Roboto, serif;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #63c42b;
+    color: white;
+    border: 2px solid #63c42b;
+    text-decoration: none;
+}
+.button-historial:hover{
+    border: 2px solid black;
+}
+
+.button-historial:active{
+    border: 2px solid black;
+    background-color: #4ca11c;
+}
+
+.svg{
+    color: #ffffff;
+}
+
+
+.container-ver-detalle{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    font-family: Roboto, serif;
+}
+
+.info-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-width: 50%;
+}
+
+.detalle-container{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.img-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+    max-width: 50%;
+}
+
+.button-wrapper{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.venta-img{
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    background: url("../img/iconos/lindo-cachorro-perro-teckel-posando-aislado-sobre-fondo-blanco.jpg") no-repeat center;
+    background-size: cover;
+    font-family: 'Kalam', cursive;
+
+}
+.venta-img h1{
+    margin-top: 150px;
+    margin-left: 150px;
+    font-size: 50px;
+}
+
+.buttons-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.filtros-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}

@@ -1,0 +1,27 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
+<%@include file="style.jspf" %>
+
+<footer>
+    <div class="footer-container">
+        <div class="logo-container">
+            <h4><a class="logo" style="color: #ECEEF3" href="${pageContext.request.contextPath}">Mundo Peludo<span
+                    class="material-symbols-outlined">pets</span></a></h4>
+            <div class="social-container">
+                <img src="${pageContext.request.contextPath}/img/iconos/icon-fb.png">
+                <img src="${pageContext.request.contextPath}/img/iconos/icon-ig.png">
+                <img src="${pageContext.request.contextPath}/img/iconos/icon-tw.png">
+                <img src="${pageContext.request.contextPath}/img/iconos/icon-yt.png">
+            </div>
+        </div>
+        <div class="logo-container">
+            <h4 style="color: #ffffff; font-size: 20px">Métodos de pago</h4>
+            <div class="payment-container">
+                <img src="${pageContext.request.contextPath}/img/iconos/paypal.png">
+                <img src="${pageContext.request.contextPath}/img/iconos/visa.png">
+                <img src="${pageContext.request.contextPath}/img/iconos/mastercard.png">
+                <img src="${pageContext.request.contextPath}/img/iconos/transferencia.png">
+            </div>
+        </div>
+    </div>
+    <p>Emiliano Muñoz 2024 &copy; - Todos los derechos reservados </p>
+</footer>
